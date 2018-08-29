@@ -1,9 +1,5 @@
 export class Tile {
-  used: boolean;
-  value: number;
-  status: string;
-  
-  constructor(used: boolean, value: number, status: string) {
+  constructor(public used: boolean, public value: number | string, public status: string) {
       this.used = used;
       this.value = value;
       this.status = status;

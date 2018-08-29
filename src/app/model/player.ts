@@ -1,8 +1,5 @@
 export class Player {
-    id: number;
-    score: number = 0;
-
-    constructor(id: number, score = 0) {
+    constructor(public id: number, public score = 0) {
         this.id = id;
         this.score = score;
     }

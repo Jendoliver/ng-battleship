@@ -13,6 +13,6 @@
             "app",
             "kebab-case"
         ],
-        "one-line": false,
+        "one-line": false
     }
 }

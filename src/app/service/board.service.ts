@@ -17,9 +17,9 @@ export class BoardService {
   // an optional size parameter that defaults to 5
   createBoard(size: number = 5): BoardService {
     // create tiles for board
-    let tiles: Tile[][];
+    let tiles: Tile[][] = [];
     for (let i = 0; i < size; i++) {
-      tiles[i] = [];
+    	tiles[i] = [];
       for (let j = 0; j < size; j++) {
         tiles[i][j] = { used: false, value: 0, status: '' };
       }
